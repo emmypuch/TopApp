@@ -124,6 +124,101 @@ button.button2 {
 }
 
 button.button2:hover {
-  background-color: #edf2f7;
+  background-color: #fff;
   color: #4299e1;
+}
+
+section.overview {
+  background-color: #edf2f7;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+div.overviewHeading {
+  display: flex;
+  justify-content: center;
+}
+
+div.overviewHeading h1 {
+  color: #4299e1;
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+
+.circle0 {
+  height: 7px;
+  width: 7px;
+  background-color: #4299e1;
+  border-radius: 50%;
+  position: relative;
+  top: 55px;
+  right: 6.3%;
+  margin-right: 3px;
+}
+
+.circle1 {
+  height: 7px;
+  width: 7px;
+  background-color: #4299e1;
+  border-radius: 50%;
+  position: relative;
+  top: 55px;
+  right: 5.8%;
+  margin-right: 3px;
+}
+
+.circle2 {
+  height: 7px;
+  width: 7px;
+  background-color: #4299e1;
+  border-radius: 50%;
+  position: relative;
+  top: 55px;
+  right: 5.3%;
+  margin-right: 3px;
+}
+
+div.overviewParagraph {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+div.overviewParagraph p {
+  color: #718096;
+  font-size: 1em;
+  font-family: "Open Sans", sans-serif;
+}
+
+div.overviewCards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  padding-left: 140px;
+  padding-right: 150px;
+  margin-top: 15px;
+}
+
+div.card1 {
+  background-color: #fff;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+  width: 180px;
+  height: 200px;
+  border-radius: 3px;
+  padding: 15px 20px;
+}
+
+div.card1Heading h1 {
+  text-align: center;
+  color: #718096;
+  font-size: 1.2em;
+  margin-top: 30px;
+  font-family: "Raleway", sans-serif;
+}
+
+div.card1Heading p {
+  color: #718096;
+  font-size: 0.9em;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
 }
