@@ -1,0 +1,111 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+div.topnav {
+  background-color: #fff;
+  padding: 20px;
+}
+
+#logo {
+  text-decoration: none;
+  color: #4299e1;
+  font-size: 1.5em;
+  text-transform: capitalize;
+  font-weight: 800;
+  margin-left: 130px;
+}
+
+#myLinks {
+  display: inline-block;
+  float: right;
+  margin-right: 15px;
+  padding-right: 200px;
+}
+
+#myLinks a {
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 1em;
+  color: #718096;
+  text-transform: uppercase;
+}
+
+#myLinks a:hover {
+  color: #4299e1;
+}
+
+section.contentSection {
+  background-color: #4299e1;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+div.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 6px;
+  margin-top: 10px;
+}
+
+div.description {
+  padding-left: 145px;
+}
+
+#heading {
+  color: #fff;
+  font-size: 1.5em;
+}
+
+.subheading {
+  color: #fff;
+  font-size: 1.4em;
+}
+
+span.text {
+  font-style: italic;
+}
+
+.descriptionParagraph {
+  color: #edf2f7;
+  font-size: 1.2em;
+}
+
+div.image img {
+  width: 300px;
+  height: 320px;
+  padding-left: 145px;
+}
+
+button.button1 {
+  background-color: #fff;
+  color: #718096;
+  font-size: 1em;
+  padding: 10px 20px;
+  border-radius: 5px;
+  outline-color: #edf2f7;
+  border: none;
+  margin-right: 15px;
+}
+
+button.button1:hover {
+  background-color: #edf2f7;
+}
+
+button.button2 {
+  background-color: #4299e1;
+  color: #fff;
+  font-size: 1em;
+  padding: 10px 20px;
+  border-radius: 5px;
+  outline-color: transparent;
+  border: 1px solid #fff;
+  margin-right: 15px;
+}
+
+button.button2:hover {
+  background-color: #edf2f7;
+  color: #4299e1;
+}
