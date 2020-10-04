@@ -95,25 +95,32 @@ div.image img {
   margin-top: 20px;
 }
 
-button.button1 {
+div.buttons {
+  padding-top: 15px;
+}
+
+a.button1 {
   background-color: #fff;
   color: #718096;
   font-size: 1em;
   padding: 10px 20px;
   border-radius: 5px;
+  cursor: pointer;
   outline-color: #edf2f7;
   border: none;
+  text-decoration: none;
   margin-right: 15px;
   font-family: "Open Sans", sans-serif;
 }
 
-button.button1:hover {
+a.button1:hover {
   background-color: #edf2f7;
 }
 
-button.button2 {
+a.button2 {
   background-color: #4299e1;
   color: #fff;
+  cursor: pointer;
   font-size: 1em;
   padding: 10px 20px;
   border-radius: 5px;
@@ -121,61 +128,50 @@ button.button2 {
   border: 1px solid #fff;
   font-family: "Open Sans", sans-serif;
   margin-right: 15px;
+  text-decoration: none;
 }
 
-button.button2:hover {
+a.button2:hover {
   background-color: #fff;
   color: #4299e1;
 }
 
 section.overview {
   background-color: #edf2f7;
-  padding-top: 10px;
+  padding-top: 21px;
   padding-bottom: 15px;
 }
 
 div.overviewHeading {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
 }
 
 div.overviewHeading h1 {
   color: #4299e1;
   font-size: 1.5em;
+  width: 100%;
+  text-align: center;
+  flex: 1;
   text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.circle0 {
+div.overviewShape {
+  display: flex;
+  justify-content: center;
+}
+
+.circle {
   height: 7px;
   width: 7px;
   background-color: #4299e1;
   border-radius: 50%;
-  position: relative;
-  top: 55px;
-  right: 6.3%;
-  margin-right: 3px;
-}
-
-.circle1 {
-  height: 7px;
-  width: 7px;
-  background-color: #4299e1;
-  border-radius: 50%;
-  position: relative;
-  top: 55px;
-  right: 5.8%;
-  margin-right: 3px;
-}
-
-.circle2 {
-  height: 7px;
-  width: 7px;
-  background-color: #4299e1;
-  border-radius: 50%;
-  position: relative;
-  top: 55px;
-  right: 5.3%;
-  margin-right: 3px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 div.overviewParagraph {
@@ -197,6 +193,7 @@ div.overviewCards {
   padding-left: 140px;
   padding-right: 150px;
   margin-top: 15px;
+  padding-bottom: 15px;
 }
 
 div.card1 {
@@ -221,4 +218,112 @@ div.card1Heading p {
   font-size: 0.9em;
   text-align: center;
   font-family: "Open Sans", sans-serif;
+}
+
+section.works {
+  background-color: #fff;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+div.workParagraph {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+div.workParagraph p {
+  color: #718096;
+  font-size: 1em;
+  font-family: "Open Sans", sans-serif;
+}
+
+div.workContent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 6px;
+  margin-top: 10px;
+  padding-bottom: 15px;
+}
+
+div.workInfo {
+  padding-left: 145px;
+}
+
+h1.workHeading {
+  color: #4299e1;
+  font-size: 1.4em;
+  font-family: "Raleway", sans-serif;
+}
+
+p.workParagraph {
+  color: #718096;
+  font-size: 0.9em;
+  font-family: "Open Sans", sans-serif;
+}
+
+div.workImage img {
+  width: 300px;
+  height: 330px;
+  padding-left: 145px;
+  margin-top: 70px;
+}
+
+section.features {
+  background-color: #4299e1;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+div.featuresHeading {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+div.featuresHeading h1 {
+  color: #fff;
+  font-size: 1.5em;
+  width: 100%;
+  text-align: center;
+  flex: 1;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+div.featuresShape {
+  display: flex;
+  justify-content: center;
+}
+
+.circle0 {
+  height: 7px;
+  width: 7px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+div.featuresParagraph {
+  display: flex;
+  justify-content: center;
+}
+
+div.featuresParagraph p {
+  color: #fff;
+  font-size: 0.9em;
+  font-family: "Open Sans", sans-serif;
+}
+
+div.featuresGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  padding-left: 140px;
+  padding-right: 150px;
+  margin-top: 15px;
+  padding-bottom: 15px;
 }
