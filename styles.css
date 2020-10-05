@@ -40,6 +40,7 @@ div.topnav {
   margin-right: 20px;
   text-decoration: none;
   font-size: 1em;
+  cursor: pointer;
   color: #718096;
   text-transform: uppercase;
   font-family: "Open Sans", sans-serif;
@@ -326,4 +327,330 @@ div.featuresGrid {
   padding-right: 150px;
   margin-top: 15px;
   padding-bottom: 15px;
+}
+
+div.featuresContent1 {
+  margin-top: 10px;
+}
+
+div.featuresContent1 h1 {
+  color: #fff;
+  font-size: 1.2em;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+}
+
+div.featuresContent1 p {
+  color: #fff;
+  font-size: 0.9em;
+  font-family: "Open Sans", sans-serif;
+}
+
+div.featuresContentimg img {
+  margin-top: 40px;
+  margin-left: 20px;
+  width: 300px;
+  height: 320px;
+}
+
+section#video {
+  display: flex;
+  justify-content: center;
+  background-color: #edf2f7;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+section.topappTeam {
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+div.teamHeading {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+div.teamHeading h1 {
+  color: #4299e1;
+  font-size: 1.5em;
+  width: 100%;
+  text-align: center;
+  flex: 1;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+div.teamShape {
+  display: flex;
+  justify-content: center;
+}
+
+.circle1 {
+  height: 7px;
+  width: 7px;
+  background-color: #4299e1;
+  border-radius: 50%;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+div.teamParagraph {
+  display: flex;
+  justify-content: center;
+}
+
+div.teamParagraph p {
+  color: #718096;
+  font-size: 0.9em;
+  font-family: "Open Sans", sans-serif;
+}
+
+div.teamContent {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 15px;
+  grid-gap: 1rem;
+  padding-left: 140px;
+  padding-right: 150px;
+  padding-bottom: 20px;
+}
+
+div.teamCard {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+div.teamImage {
+  display: flex;
+  justify-content: center;
+  min-width: 100%;
+  background-color: #e2e8f0;
+  border-radius: 5px;
+}
+
+div.teamImage img {
+  width: 280;
+  height: 300px;
+}
+
+div.teamDetails {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+div.teamDetails h4 {
+  color: #4299e1;
+  font-size: 0.9em;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  padding-top: 20px;
+}
+
+div.teamDetails p {
+  color: #4299e1;
+  font-size: 0.7em;
+  font-family: "Open Sans", sans-serif;
+}
+
+div.teamSocial {
+  background-color: #4299e1;
+  padding: 15px 20px;
+}
+
+div.teamSocial a {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+section.topAppPrice {
+  background-color: #edf2f7;
+}
+
+div.pricingHeading {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+div.pricingHeading h1 {
+  color: #4299e1;
+  font-size: 1.5em;
+  width: 100%;
+  text-align: center;
+  flex: 1;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+div.pricingParagraph {
+  display: flex;
+  justify-content: center;
+}
+
+div.pricingParagraph p {
+  color: #718096;
+  font-size: 0.9em;
+  font-family: "Open Sans", sans-serif;
+}
+
+div.pricingContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 15px;
+  grid-gap: 1rem;
+  padding-left: 140px;
+  padding-right: 150px;
+  padding-bottom: 20px;
+}
+
+div.pricingCard {
+  background-color: #e2e8f0;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+div.pricingButton1 {
+  display: flex;
+  justify-content: center;
+}
+
+button.button1 {
+  background-color: #fff;
+  color: #4299e1;
+  padding: 10px 20px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2em;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 12px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  outline: #fff;
+}
+
+p.paragraph1 {
+  border-bottom: 3px solid #eee;
+  font-weight: 800;
+  font-size: 1em;
+  text-align: center;
+  padding-bottom: 8px;
+  font-family: "Open Sans", sans-serif;
+}
+
+span.par {
+  font-weight: normal;
+  font-size: 0.9em;
+  color: black;
+  font-family: "Open Sans", sans-serif;
+}
+
+div.pricingButton2 {
+  display: flex;
+  justify-content: center;
+}
+
+button.button2 {
+  background-color: #4299e1;
+  color: #fff;
+  padding: 5px 15px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin-top: 12px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  outline: #4299e1;
+}
+
+/* p.paragraph2 {
+  font-weight: 800;
+  font-size: 1em;
+  color: black;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+} */
+
+div.pricingCard1 {
+  background-color: #fff;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+div.pricingButton3 {
+  display: flex;
+  justify-content: center;
+}
+
+button.button3 {
+  background-color: #4299e1;
+  color: #fff;
+  padding: 10px 20px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2em;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 12px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  outline: #4299e1;
+}
+
+p.paragraph2 {
+  border-bottom: 3px solid #e2e8f0;
+  font-weight: 800;
+  font-size: 1em;
+  color: #000;
+  text-align: center;
+  padding-bottom: 8px;
+  font-family: "Open Sans", sans-serif;
+}
+
+span.par1 {
+  font-weight: normal;
+  font-size: 0.9em;
+  color: #4299e1;
+  font-family: "Open Sans", sans-serif;
+}
+
+div.pricingButton2 {
+  display: flex;
+  justify-content: center;
+}
+
+button.button2 {
+  background-color: #4299e1;
+  color: #fff;
+  padding: 5px 15px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin-top: 12px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  outline: #4299e1;
+}
+
+p.paragraph3 {
+  font-weight: 800;
+  font-size: 1em;
+  color: #4299e1;
+  text-align: center;
+  padding-bottom: 7px;
+  font-family: "Open Sans", sans-serif;
 }
