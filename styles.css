@@ -575,13 +575,13 @@ button.button2 {
   outline: #4299e1;
 }
 
-/* p.paragraph2 {
+p.paragraph {
   font-weight: 800;
   font-size: 1em;
-  color: black;
+  color: #000;
   text-align: center;
   font-family: "Open Sans", sans-serif;
-} */
+}
 
 div.pricingCard1 {
   background-color: #fff;
@@ -613,7 +613,7 @@ p.paragraph2 {
   border-bottom: 3px solid #e2e8f0;
   font-weight: 800;
   font-size: 1em;
-  color: #000;
+  color: #4299e1;
   text-align: center;
   padding-bottom: 8px;
   font-family: "Open Sans", sans-serif;
