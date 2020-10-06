@@ -776,6 +776,7 @@ div.appButton button {
 
 section.contact {
   background-color: #edf2f7;
+  padding-bottom: 100px;
 }
 
 div.contactHeading {
@@ -820,3 +821,14 @@ div.contactParagraph p {
   font-size: 0.9em;
   font-family: "Open Sans", sans-serif;
 }
+
+/* div.contactForm {
+  margin-top: 15px;
+  margin-bottom: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+div.contactForm input {
+  width: 50%;
+} */
