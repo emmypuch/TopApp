@@ -510,7 +510,7 @@ div.pricingContainer {
   grid-gap: 1rem;
   padding-left: 140px;
   padding-right: 150px;
-  padding-bottom: 20px;
+  padding-bottom: 25px;
 }
 
 div.pricingCard {
@@ -652,5 +652,171 @@ p.paragraph3 {
   color: #4299e1;
   text-align: center;
   padding-bottom: 7px;
+  font-family: "Open Sans", sans-serif;
+}
+
+section.appDownload {
+  background-color: #4299e1;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+div.appHeading {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+div.appHeading h1 {
+  color: #fff;
+  font-size: 1.5em;
+  width: 100%;
+  text-align: center;
+  flex: 1;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+div.appShape {
+  display: flex;
+  justify-content: center;
+}
+
+div.appParagraph {
+  display: flex;
+  justify-content: center;
+}
+
+div.appParagraph p {
+  color: #fff;
+  font-size: 0.9em;
+  font-family: "Open Sans", sans-serif;
+}
+
+div.appImage {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+div.appImage img {
+  margin-right: 15px;
+  border-radius: 5px;
+}
+
+div.appForm {
+  display: flex;
+  justify-content: center;
+  background-color: #2c5282;
+  opacity: 75;
+  margin-left: 140px;
+  margin-right: 150px;
+  margin-top: 40px;
+  border-radius: 5px;
+  width: 80%;
+  height: 60px;
+}
+
+h4.appHeading {
+  position: relative;
+  bottom: 33px;
+  left: -55px;
+  color: #e2e8f0;
+  font-size: 1em;
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+input {
+  background-color: #e2e8f0;
+  color: #718096;
+  height: 6px;
+  border-radius: 5px;
+  border: 2px solid #2c5282;
+  outline: none;
+  width: 100%;
+  position: relative;
+  right: -70px;
+}
+
+input[type="text"] {
+  padding: 20px 30px;
+  margin-top: 10px;
+  font-size: 0.9em;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+div.appButton {
+  position: relative;
+  left: 65px;
+  top: 11px;
+}
+
+div.appButton button {
+  background-color: #4299e1;
+  color: #e2e8f0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 15px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 2px solid #4299e1;
+  outline: none;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+section.contact {
+  background-color: #edf2f7;
+}
+
+div.contactHeading {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+div.contactHeading h1 {
+  color: #4299e1;
+  font-size: 1.5em;
+  width: 100%;
+  text-align: center;
+  flex: 1;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+div.contactShape {
+  display: flex;
+  justify-content: center;
+}
+
+.circle1 {
+  height: 7px;
+  width: 7px;
+  background-color: #4299e1;
+  border-radius: 50%;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+div.contactParagraph {
+  display: flex;
+  justify-content: center;
+}
+
+div.contactParagraph p {
+  color: #718096;
+  font-size: 0.9em;
   font-family: "Open Sans", sans-serif;
 }
