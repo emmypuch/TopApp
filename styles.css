@@ -50,6 +50,14 @@ div.topnav {
   color: #4299e1;
 }
 
+@media (max-width: 768px) {
+  #myLinks {
+    display: none;
+  }
+}
+
+/* Content Styling Starts */
+
 section.contentSection {
   background-color: #4299e1;
   padding-top: 10px;
@@ -137,6 +145,42 @@ a.button2:hover {
   color: #4299e1;
 }
 
+@media (max-width: 768px) {
+  section.contentSection {
+    padding-top: 0px;
+  }
+
+  div.content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  div.image img {
+    display: none;
+  }
+
+  div.description {
+    padding: 1.3rem;
+  }
+
+  #heading {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 2em;
+  }
+
+  .subheading {
+    font-size: 1.5em;
+  }
+
+  .descriptionParagraph {
+    font-size: 0.8em;
+  }
+}
+
+/* Overview Styling Starts */
+
 section.overview {
   background-color: #edf2f7;
   padding-top: 21px;
@@ -178,6 +222,7 @@ div.overviewShape {
 div.overviewParagraph {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-bottom: 5px;
 }
 
@@ -220,6 +265,40 @@ div.card1Heading p {
   text-align: center;
   font-family: "Open Sans", sans-serif;
 }
+
+@media (max-width: 768px) {
+  div.overviewParagraph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+
+  div.overviewParagraph p {
+    font-size: 0.8em;
+    text-align: center;
+  }
+
+  div.overviewCardWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div.overviewCards {
+    display: flex;
+    flex-direction: column;
+  }
+
+  div.card1 {
+    width: 280px;
+    height: 200px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+  }
+}
+
+/* Work Styling Starts */
 
 section.works {
   background-color: #fff;
