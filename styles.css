@@ -336,9 +336,15 @@ h1.workHeading {
   font-family: "Raleway", sans-serif;
 }
 
-p.workParagraph {
+div.workParagraph p {
   color: #718096;
   font-size: 0.9em;
+  font-family: "Open Sans", sans-serif;
+}
+
+div.workParagraph1 p {
+  font-size: 1.2em;
+  color: #718096;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -348,6 +354,43 @@ div.workImage img {
   padding-left: 145px;
   margin-top: 70px;
 }
+
+@media (max-width: 768px) {
+  div.workContent {
+    display: flex;
+    flex-direction: column;
+  }
+
+  div.workInfo {
+    padding-left: 20px;
+  }
+
+  div.workParagraph p {
+    text-align: center;
+    font-size: 0.8em;
+  }
+
+  div.workParagraph1 p {
+    font-size: 1em;
+    color: #718096;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  div.workImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div.workImage img {
+    width: 300px;
+    height: 330px;
+    padding-left: 145px;
+    margin-top: 70px;
+  }
+}
+
+/* Features Styling Starts */
 
 section.features {
   background-color: #4299e1;
