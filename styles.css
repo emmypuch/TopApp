@@ -93,7 +93,7 @@ span.text {
 
 .descriptionParagraph {
   color: #edf2f7;
-  font-size: 1em;
+  font-size: 1.3em;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -228,8 +228,14 @@ div.overviewParagraph {
 
 div.overviewParagraph p {
   color: #718096;
-  font-size: 1em;
+  font-size: 1.3em;
   font-family: "Open Sans", sans-serif;
+}
+
+div.overviewCardWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 div.overviewCards {
@@ -249,6 +255,7 @@ div.card1 {
   height: 200px;
   border-radius: 3px;
   padding: 15px 20px;
+  margin-right: 20px;
 }
 
 div.card1Heading h1 {
@@ -288,6 +295,8 @@ div.card1Heading p {
   div.overviewCards {
     display: flex;
     flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   div.card1 {
@@ -312,12 +321,6 @@ div.workParagraph {
   margin-bottom: 5px;
 }
 
-div.workParagraph p {
-  color: #718096;
-  font-size: 1em;
-  font-family: "Open Sans", sans-serif;
-}
-
 div.workContent {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -338,7 +341,7 @@ h1.workHeading {
 
 div.workParagraph p {
   color: #718096;
-  font-size: 0.9em;
+  font-size: 1.3em;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -428,7 +431,7 @@ div.featuresParagraph {
 
 div.featuresParagraph p {
   color: #fff;
-  font-size: 0.9em;
+  font-size: 1.3em;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -668,7 +671,7 @@ div.pricingParagraph {
 
 div.pricingParagraph p {
   color: #718096;
-  font-size: 0.9em;
+  font-size: 1.3em;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -909,7 +912,7 @@ div.appParagraph {
 
 div.appParagraph p {
   color: #fff;
-  font-size: 0.9em;
+  font-size: 1.3em;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -992,6 +995,60 @@ div.appButton button {
   padding-bottom: 6px;
 }
 
+@media (max-width: 768px) {
+  div.appParagraph p {
+    text-align: center;
+    font-size: 0.8em;
+  }
+
+  div.appForm {
+    margin-left: 20px;
+    /* margin-right: 20px; */
+    width: 90%;
+    height: 50px;
+  }
+
+  h4.appHeading {
+    position: relative;
+    bottom: 33px;
+    left: 25px;
+    font-size: 0.6em;
+  }
+
+  input {
+    background-color: #e2e8f0;
+    color: #718096;
+    height: 6px;
+    border-radius: 5px;
+    border: 2px solid #2c5282;
+    outline: none;
+    width: 100%;
+    position: relative;
+    right: -70px;
+  }
+
+  input[type="text"] {
+    padding: 15px 30px;
+    font-size: 0.7em;
+  }
+
+  div.appButton {
+    position: relative;
+    left: -12px;
+    top: 11px;
+  }
+
+  div.appButton button {
+    font-size: 0.8em;
+    padding: 5px 10px;
+    padding-top: 6px;
+    padding-bottom: 3px;
+  }
+  div.appImage {
+    display: none;
+  }
+}
+
 /* Contact styling Starts */
 
 section.contact {
@@ -1038,8 +1095,15 @@ div.contactParagraph {
 
 div.contactParagraph p {
   color: #718096;
-  font-size: 0.9em;
+  font-size: 1.3em;
   font-family: "Open Sans", sans-serif;
+}
+
+@media (max-width: 768px) {
+  div.contactParagraph p {
+    font-size: 0.8em;
+    text-align: center;
+  }
 }
 
 /* Footer Styling Starts */
