@@ -60,8 +60,8 @@ div.topnav {
 
 section.contentSection {
   background-color: #4299e1;
-  padding-top: 10px;
-  padding-bottom: 15px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 div.content {
@@ -183,8 +183,8 @@ a.button2:hover {
 
 section.overview {
   background-color: #edf2f7;
-  padding-top: 21px;
-  padding-bottom: 15px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 div.overviewHeading {
@@ -311,8 +311,8 @@ div.card1Heading p {
 
 section.works {
   background-color: #fff;
-  padding-top: 10px;
-  padding-bottom: 15px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 div.workParagraph {
@@ -388,8 +388,8 @@ div.workImage img {
 
 section.features {
   background-color: #4299e1;
-  padding-top: 10px;
-  padding-bottom: 15px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 div.featuresHeading {
@@ -506,15 +506,21 @@ section#video {
   display: flex;
   justify-content: center;
   background-color: #edf2f7;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+  section#video {
+    display: none;
+  }
 }
 
 /* Team Styling Starts */
 
 section.topappTeam {
-  padding-top: 10px;
-  padding-bottom: 15px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 div.teamHeading {
@@ -644,6 +650,8 @@ div.teamSocial a {
 
 section.topAppPrice {
   background-color: #edf2f7;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 div.pricingHeading {
@@ -878,8 +886,8 @@ p.paragraph3 {
 
 section.appDownload {
   background-color: #4299e1;
-  padding-top: 10px;
-  padding-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 div.appHeading {
@@ -1049,68 +1057,12 @@ div.appButton button {
   }
 }
 
-/* Contact styling Starts */
-
-section.contact {
-  background-color: #edf2f7;
-  padding-bottom: 10px;
-}
-
-div.contactHeading {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-items: center;
-}
-
-div.contactHeading h1 {
-  color: #4299e1;
-  font-size: 1.5em;
-  width: 100%;
-  text-align: center;
-  flex: 1;
-  text-transform: uppercase;
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
-
-div.contactShape {
-  display: flex;
-  justify-content: center;
-}
-
-.circle1 {
-  height: 7px;
-  width: 7px;
-  background-color: #4299e1;
-  border-radius: 50%;
-  margin-left: 5px;
-  margin-right: 5px;
-}
-
-div.contactParagraph {
-  display: flex;
-  justify-content: center;
-}
-
-div.contactParagraph p {
-  color: #718096;
-  font-size: 1.3em;
-  font-family: "Open Sans", sans-serif;
-}
-
-@media (max-width: 768px) {
-  div.contactParagraph p {
-    font-size: 0.8em;
-    text-align: center;
-  }
-}
-
 /* Footer Styling Starts */
 
 section.topappFooter {
   background-color: #000;
-  padding-bottom: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 div.footerGrid {
@@ -1198,6 +1150,7 @@ a.icon6 i {
 
 div.footerImage {
   margin-top: 30px;
+  margin-left: 4em;
 }
 
 div.grid2 {
@@ -1220,7 +1173,7 @@ div.subGrid h4 {
 
 div.subGrid p {
   color: #edf2f7;
-  font-size: 0.8em;
+  font-size: 0.9em;
   font-family: "Open Sans", sans-serif;
 }
 
